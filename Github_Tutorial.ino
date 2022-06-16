@@ -2,7 +2,7 @@
  12-29-2012
  Spark Fun Electronics
  Nathan Seidle
- 
+ Edited by Pouya Hosseinniya
  This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
  
  This is bad code but is used to demonstrate how to use repositories on github.
@@ -13,8 +13,8 @@
 
 void setup()
 {
-  Serial.begin(9600);
-  Serial.println("Trimpot read example");
+  Serial.begin(115200);
+  Serial.println("A test read example:");
 
   pinMode(A0, INPUT);
 }
@@ -27,6 +27,5 @@ void loop()
   Serial.print("The value is: ");
   Serial.println(myValue);
 
-  delay(250);
+  delay(500);
 }
-
